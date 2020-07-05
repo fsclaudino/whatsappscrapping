@@ -4,7 +4,7 @@ import time
 
 class whatsAppbot():
     def __init__(self):
-        self.message = "Boa noite! Teste de Mensagem para Gabi"
+        self.message = "Teste de Mensagem"
         self.grupos = ["Teste"]
         options = webdriver.ChromeOptions()
         options.add_argument('lang=pt-br')
